@@ -87,7 +87,7 @@ class Transport implements \CentralApps\Mail\Transport {
 		$this->attachmentsCheck($message);
 	}
 	
-	protected function mailfunSpecificTransport($sendableArray)
+	protected function mailgunSpecificTransport($sendableArray)
 	{
 		$message = $sendableArray;
 		if( ! (is_null($this->testMode) || $this->testMode == false ) ) {
