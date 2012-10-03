@@ -5,7 +5,7 @@
     "keywords": ["mail","email", "mailgun"],
     "require": {
         "php": ">=5.3.0",
-        "centralapps/mail": "dev-master"
+        "centralapps/mail": "#4a59bc7e83949da80c02881ac5843b5da111e4eb"
     },
     "autoload": {
         "psr-0": { "CentralApps\\MailGun": "" }
